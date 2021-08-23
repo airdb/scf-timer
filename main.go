@@ -15,7 +15,7 @@ func main() {
 }
 
 // Refer: https://xuthus.cc/go/scf-go-runtime.html
-func handler(ctx context.Context, event events.TimerEvent) {
+func Run(ctx context.Context, event events.TimerEvent) {
 	fmt.Println("hello", time.Now())
 	return
 }
