@@ -31,6 +31,7 @@ inputs:
   events:
     - timer:
         parameters:
+          # !!!!! Please be aware, the second field should `0`, otherwise it will be run every second.
           # Sec, Min, Hour, Day, Month, Weekday, Year.
           # CronExpression: '*/1 * * * *'
           cronExpression: '0 */10 * * * * *'
